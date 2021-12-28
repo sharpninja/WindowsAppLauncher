@@ -1,0 +1,8 @@
+D:\VS 2022\Meus Projetos e Treinamentos\source\repos\ConsoleLauncher\ConsoleLauncher\bin\Release\ConsoleLauncher.exe.config
+D:\VS 2022\Meus Projetos e Treinamentos\source\repos\ConsoleLauncher\ConsoleLauncher\bin\Release\ConsoleLauncher.exe
+D:\VS 2022\Meus Projetos e Treinamentos\source\repos\ConsoleLauncher\ConsoleLauncher\bin\Release\ConsoleLauncher.pdb
+D:\VS 2022\Meus Projetos e Treinamentos\source\repos\ConsoleLauncher\ConsoleLauncher\obj\Release\ConsoleLauncher.csproj.AssemblyReference.cache
+D:\VS 2022\Meus Projetos e Treinamentos\source\repos\ConsoleLauncher\ConsoleLauncher\obj\Release\ConsoleLauncher.csproj.SuggestedBindingRedirects.cache
+D:\VS 2022\Meus Projetos e Treinamentos\source\repos\ConsoleLauncher\ConsoleLauncher\obj\Release\ConsoleLauncher.csproj.CoreCompileInputs.cache
+D:\VS 2022\Meus Projetos e Treinamentos\source\repos\ConsoleLauncher\ConsoleLauncher\obj\Release\ConsoleLauncher.exe
+D:\VS 2022\Meus Projetos e Treinamentos\source\repos\ConsoleLauncher\ConsoleLauncher\obj\Release\ConsoleLauncher.pdb
