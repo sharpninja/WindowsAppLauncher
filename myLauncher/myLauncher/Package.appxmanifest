@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  IgnorableNamespaces="uap mp">
+
+  <Identity
+    Name="271bb57d-331f-4c07-8f5e-d30bafc8eea9"
+    Publisher="CN=lazie"
+    Version="1.0.0.0" />
+
+  <mp:PhoneIdentity PhoneProductId="271bb57d-331f-4c07-8f5e-d30bafc8eea9" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+
+  <Properties>
+    <DisplayName>myLauncher</DisplayName>
+    <PublisherDisplayName>lazie</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+      Executable="$targetnametoken$.exe"
+      EntryPoint="myLauncher.App">
+      <uap:VisualElements
+        DisplayName="myLauncher"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png"
+        Description="myLauncher"
+        BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+		<Extensions>
+			<desktop:Extension Category="windows.fullTrustProcess" Executable="Assets\ConsoleLauncher.exe" >
+				<desktop:FullTrustProcess>
+					<desktop:ParameterGroup GroupId="Edge DEV" Parameters="C:\AtalhosSoftwareLauncher\EdgeDev.lnk"/>
+					<desktop:ParameterGroup GroupId="Chrome" Parameters="C:\AtalhosSoftwareLauncher\Chrome.lnk"/>
+					<desktop:ParameterGroup GroupId="Opera" Parameters="C:\AtalhosSoftwareLauncher\Opera.lnk"/>
+
+					<desktop:ParameterGroup GroupId="VS2022" Parameters="C:\AtalhosSoftwareLauncher\VS2022.lnk"/>
+					<desktop:ParameterGroup GroupId="VSCodePreview" Parameters="C:\AtalhosSoftwareLauncher\VSCodeInsiders.lnk"/>
+					<desktop:ParameterGroup GroupId="VSCodeStable" Parameters="C:\AtalhosSoftwareLauncher\VSCode.lnk"/>
+
+					<desktop:ParameterGroup GroupId="uTorrent Pro" Parameters="C:\AtalhosSoftwareLauncher\uTorrent.lnk"/>
+					<desktop:ParameterGroup GroupId="Beyond Compare (Adm)" Parameters="C:\AtalhosSoftwareLauncher\BCompare.lnk"/>
+					<desktop:ParameterGroup GroupId="CCleaner" Parameters="C:\AtalhosSoftwareLauncher\CCleaner64.lnk"/>
+					<desktop:ParameterGroup GroupId="Core Temp" Parameters="C:\AtalhosSoftwareLauncher\CoreTemp.lnk"/>
+					<desktop:ParameterGroup GroupId="CPU-Z" Parameters="C:\AtalhosSoftwareLauncher\cpuz.lnk"/>
+					<desktop:ParameterGroup GroupId="MusicBee" Parameters="C:\AtalhosSoftwareLauncher\MusicBee.lnk"/>
+					<desktop:ParameterGroup GroupId="PDF-XChange Editor" Parameters="C:\AtalhosSoftwareLauncher\PDFXEdit.lnk"/>
+					<desktop:ParameterGroup GroupId="Revo Uninstaller Pro" Parameters="C:\AtalhosSoftwareLauncher\RevoUninPro.lnk"/>
+					<desktop:ParameterGroup GroupId="VLC" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="WinRAR" Parameters="C:\AtalhosSoftwareLauncher\WinRAR.lnk"/>
+
+					<desktop:ParameterGroup GroupId="Acronis True Image" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="Bulk File Changer" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="Camtasia Studio" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="Desfragmentar e Otimizar Unidades" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="Driver Booster" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="Duplicate Cleaner Pro" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="EaseUS Partition Master" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="Font Creator (Portable)" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="HandBrake" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="MemoNotes" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="NVIDIA Painel de Controle" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="PatchCleaner" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="PerfectDisk" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="Rainmeter" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="Recuva" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="Rufus" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="Switch Sound File Converter" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="Tornado ThrottleStop" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="TPM 2.0 error fix" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					<desktop:ParameterGroup GroupId="TreeSize" Parameters="C:\AtalhosSoftwareLauncher\vlc.lnk"/>
+					
+					
+					
+
+
+
+				</desktop:FullTrustProcess>
+			</desktop:Extension>
+		</Extensions>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <Capability Name="internetClient" />
+	<rescap:Capability Name="runFullTrust"/>
+  </Capabilities>
+</Package>
